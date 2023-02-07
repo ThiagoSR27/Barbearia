@@ -1,0 +1,165 @@
+/*Geral*/
+.linkstyle{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold ;
+    text-transform: uppercase;
+    margin: 0 0 0 15px;  
+}
+
+.linkstyle:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.global_header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+.header_nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.header_box{
+    margin: 0 auto;
+    position: relative;
+   width: 940px; 
+}
+
+.header_link{
+    display: inline;
+}
+
+.geral_footer{
+    padding: 40px 0;
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+}
+
+.texto_geral_footer{
+    color: #ffffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/*Pagina principal*/
+.main{
+    width: 100%;
+    text-align: center !important;
+    background-color: #cccccc;
+    padding: 30 0px;
+    margin: 8px;
+}
+
+.container_barbearia{
+    padding: 30px;
+}
+.sobre_barb{
+    margin: 0.83em 0;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+}
+
+.missao{
+    font-size: 20px;
+    margin: 1em 0;
+}
+
+.enfase{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(185, 8, 8);
+}
+
+.lista_beneficios{
+    text-align: left;
+    font-style: italic;
+}
+
+.titulo_beneficios{
+    text-align: center;
+    margin: 1em;
+    font-weight: bold;
+    font-size: 1.17em;
+}
+
+.container_beneficios{
+    box-sizing: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.lista_beneficios{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.titulo_ini{
+    padding-left: 20px;
+}
+
+#barb_alura{
+    font-weight: bold;
+}
+
+#img_banner{
+    width: 100%;
+}
+
+
+#img_beneficios{
+    width: 50%;
+}
+
+/*pagina_de_produtos*/
+
+.prod_item{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: solid 2px #000000;
+    border-radius: 10px;
+}
+
+.prod_item:hover{
+    border-color: #c78c19;
+}
+
+.prod_item:hover .titulo_prod_item{
+    font-size: 30px;
+}
+
+.prod_item:active{
+    border-color: #088c19;
+}
+
+.prod_list{
+   width: 940px;
+   margin: 0 auto; 
+   padding: 50px 0;
+}
+
+.titulo_prod_item{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.desc_prod{
+    font-size: 18px; 
+ }
+
+.prod_preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
