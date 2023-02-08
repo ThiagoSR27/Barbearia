@@ -163,3 +163,34 @@
     margin: 10px 0 0;
 }
 
+/*Pagina de contatos*/
+
+.cont_main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cont_form{
+    margin: 40px 0;
+}
+
+.cont_label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.cont_input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.div_radio_label{
+    display: block;
+    margin: 10px 0;
+}
+.chk_novidades{
+    margin-top: 10PX;
+}
