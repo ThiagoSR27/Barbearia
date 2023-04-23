@@ -183,6 +183,7 @@ body{
 
 .prod_item:hover{
     border-color: #c78c19;
+    color: ;
 }
 
 .prod_item:hover .titulo_prod_item{
